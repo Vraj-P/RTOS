@@ -1,0 +1,11 @@
+.\objects\sim\k_mem_utils.o: src\common\k_mem_utils.c
+.\objects\sim\k_mem_utils.o: ..\include\k_mem_utils.h
+.\objects\sim\k_mem_utils.o: ..\include\rtx_errno.h
+.\objects\sim\k_mem_utils.o: ..\include\common.h
+.\objects\sim\k_mem_utils.o: ..\include\common_ext.h
+.\objects\sim\k_mem_utils.o: ..\include\math.h
+.\objects\sim\k_mem_utils.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\objects\sim\k_mem_utils.o: ..\include\freelist.h
+.\objects\sim\k_mem_utils.o: ..\include\printf.h
+.\objects\sim\k_mem_utils.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdarg.h
+.\objects\sim\k_mem_utils.o: ..\include\bit_array.h

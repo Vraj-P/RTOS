@@ -1,0 +1,33 @@
+G30-TS1: START
+test1: p0 = 0x2007c000
+test1: p1 = 0x2007e000
+test1: p2 = 0x20080000
+0x20082000: 0x2000
+1 free memory block(s) found 
+0x2007c000: 0x4000
+0x20082000: 0x2000
+2 free memory block(s) found 
+test3: p0 = 0x20080000
+test3: p1 = 0x20082000
+test3: p2 = 0x2007c000
+test3: p3 = 0x2007e000
+test3: p4 = 0x2007f000
+test3: p5 = 0x2007f200
+test3: p6 = 0x2007f100
+0x2007f800: 0x800
+0x2007f400: 0x400
+2 free memory block(s) found 
+0x2007c000: 0x2000
+0x2007e000: 0x1000
+0x2007f800: 0x800
+0x2007f400: 0x400
+0x2007f000: 0x200
+5 free memory block(s) found 
+0x2007c000: 0x4000
+1 free memory block(s) found 
+0x2007c000: 0x8000
+1 free memory block(s) found 
+G30-TS1: 4/4 tests PASSED
+G30-TS1: 0/4 tests FAILED
+G30-TS1: END
+

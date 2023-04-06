@@ -1,0 +1,98 @@
+Dependencies for Project 'ae-lib', Target 'AE Lib SIM': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\doc\Abstract.txt)(0x627E8B43)()
+F (.\doc\G99-TS100.log)(0x627E8B43)()
+F (.\src\ae\ae.c)(0x627E8B43)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768-I"C:\users\crossover\Local Settings\Application Data\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="535" -DLPC175x_6x -DSIM_TARGET -DDEBUG_0_ -DECE350_P1-o .\objects\sim\ae.o --omf_browse .\objects\sim\ae.crf --depend .\objects\sim\ae.d)
+I (..\include\ae.h)(0x627E8B43)
+I (..\include\bsp\LPC1768\uart_polling.h)(0x627E8B43)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025CC3E)
+I (..\include\bsp\LPC1768\uart_def.h)(0x627E8B43)
+I (..\include\printf.h)(0x627E8B43)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x6025CC36)
+I (..\include\rtx.h)(0x627E8B43)
+I (..\include\rtx_ext.h)(0x627E8B43)
+I (..\include\common.h)(0x628A7D34)
+I (..\include\common_ext.h)(0x627E8B43)
+I (..\include\bsp\LPC1768\lpc1768_mem.h)(0x627E8B43)
+I (..\include\rtx_errno.h)(0x62845F90)
+F (.\src\ae\ae_tasks_util.c)(0x627E8B43)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768-I"C:\users\crossover\Local Settings\Application Data\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="535" -DLPC175x_6x -DSIM_TARGET -DDEBUG_0_ -DECE350_P1-o .\objects\sim\ae_tasks_util.o --omf_browse .\objects\sim\ae_tasks_util.crf --depend .\objects\sim\ae_tasks_util.d)
+I (src\ae\ae_tasks_util.h)(0x627E8B43)
+I (..\include\ae.h)(0x627E8B43)
+I (..\include\bsp\LPC1768\uart_polling.h)(0x627E8B43)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025CC3E)
+I (..\include\bsp\LPC1768\uart_def.h)(0x627E8B43)
+I (..\include\printf.h)(0x627E8B43)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x6025CC36)
+I (..\include\rtx.h)(0x627E8B43)
+I (..\include\rtx_ext.h)(0x627E8B43)
+I (..\include\common.h)(0x628A7D34)
+I (..\include\common_ext.h)(0x627E8B43)
+I (..\include\bsp\LPC1768\lpc1768_mem.h)(0x627E8B43)
+I (..\include\rtx_errno.h)(0x62845F90)
+I (src\ae\ae_inc.h)(0x627E8B43)
+I (src\ae\ae_util.h)(0x627E8B43)
+F (.\src\ae\ae_timer.c)(0x627E8B43)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768-I"C:\users\crossover\Local Settings\Application Data\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="535" -DLPC175x_6x -DSIM_TARGET -DDEBUG_0_ -DECE350_P1-o .\objects\sim\ae_timer.o --omf_browse .\objects\sim\ae_timer.crf --depend .\objects\sim\ae_timer.d)
+I (src\ae\ae_timer.h)(0x627E8B43)
+I (..\include\bsp\LPC1768\timer.h)(0x627E8B43)
+I (C:\users\crossover\Local Settings\Application Data\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1E0B04)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D945A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025CC3E)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D945A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D945A)
+I (C:\users\crossover\Local Settings\Application Data\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x584985E2)
+I (..\include\common.h)(0x628A7D34)
+I (..\include\common_ext.h)(0x627E8B43)
+F (.\src\ae\ae_util.c)(0x627E8B43)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768-I"C:\users\crossover\Local Settings\Application Data\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="535" -DLPC175x_6x -DSIM_TARGET -DDEBUG_0_ -DECE350_P1-o .\objects\sim\ae_util.o --omf_browse .\objects\sim\ae_util.crf --depend .\objects\sim\ae_util.d)
+I (src\ae\ae_util.h)(0x627E8B43)
+I (..\include\ae.h)(0x627E8B43)
+I (..\include\bsp\LPC1768\uart_polling.h)(0x627E8B43)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025CC3E)
+I (..\include\bsp\LPC1768\uart_def.h)(0x627E8B43)
+I (..\include\printf.h)(0x627E8B43)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x6025CC36)
+I (..\include\rtx.h)(0x627E8B43)
+I (..\include\rtx_ext.h)(0x627E8B43)
+I (..\include\common.h)(0x628A7D34)
+I (..\include\common_ext.h)(0x627E8B43)
+I (..\include\bsp\LPC1768\lpc1768_mem.h)(0x627E8B43)
+I (..\include\rtx_errno.h)(0x62845F90)
+I (src\ae\ae_inc.h)(0x627E8B43)
+F (.\src\main.c)(0x628A7D34)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768-I"C:\users\crossover\Local Settings\Application Data\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="535" -DLPC175x_6x -DSIM_TARGET -DDEBUG_0_ -DECE350_P1-o .\objects\sim\main.o --omf_browse .\objects\sim\main.crf --depend .\objects\sim\main.d)
+I (C:\users\crossover\Local Settings\Application Data\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\LPC17xx.h)(0x5E1E0B04)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D945A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025CC3E)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D945A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D945A)
+I (C:\users\crossover\Local Settings\Application Data\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include\system_LPC17xx.h)(0x584985E2)
+I (..\include\rtx.h)(0x627E8B43)
+I (..\include\rtx_ext.h)(0x627E8B43)
+I (..\include\common.h)(0x628A7D34)
+I (..\include\common_ext.h)(0x627E8B43)
+I (..\include\bsp\LPC1768\lpc1768_mem.h)(0x627E8B43)
+I (..\include\rtx_errno.h)(0x62845F90)
+I (..\include\bsp\LPC1768\uart_polling.h)(0x627E8B43)
+I (..\include\bsp\LPC1768\uart_def.h)(0x627E8B43)
+I (..\include\printf.h)(0x627E8B43)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x6025CC36)
+I (..\include\ae.h)(0x627E8B43)
+F (.\src\ae\ae_tasks100_G99.c)(0x627E8B43)()
+F (.\src\ae\ae_tasks.c)(0x628AC0F9)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\include -I ..\include\bsp\LPC1768-I"C:\users\crossover\Local Settings\Application Data\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include"-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="535" -DLPC175x_6x -DSIM_TARGET -DDEBUG_0_ -DECE350_P1-o .\objects\sim\ae_tasks.o --omf_browse .\objects\sim\ae_tasks.crf --depend .\objects\sim\ae_tasks.d)
+I (src\ae\ae_tasks.h)(0x627E8B43)
+I (..\include\rtx.h)(0x627E8B43)
+I (..\include\rtx_ext.h)(0x627E8B43)
+I (..\include\common.h)(0x628A7D34)
+I (..\include\common_ext.h)(0x627E8B43)
+I (..\include\bsp\LPC1768\lpc1768_mem.h)(0x627E8B43)
+I (..\include\bsp\LPC1768\uart_polling.h)(0x627E8B43)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025CC3E)
+I (..\include\bsp\LPC1768\uart_def.h)(0x627E8B43)
+I (..\include\printf.h)(0x627E8B43)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x6025CC36)
+I (src\ae\ae_util.h)(0x627E8B43)
+I (..\include\ae.h)(0x627E8B43)
+I (..\include\rtx_errno.h)(0x62845F90)
+I (src\ae\ae_inc.h)(0x627E8B43)
+I (src\ae\ae_tasks_util.h)(0x627E8B43)
+F (.\src\ae\ae_tasks1_G30.c)(0x628A7D34)()
+F (.\src\ae\ae_tasks2_G30.c)(0x628A7D34)()
+F (.\src\ae\ae_tasks3_Gxx.c)(0x628A7D34)()

@@ -1,0 +1,56 @@
+priv_task1: TID =1
+AAAAA
+BBBBB
+CCCCC
+DDDDD
+EEEEE
+FFFFF
+priv_task1 before yielding cpu.
+ptr = 0x10007000
+0x10007000: 0x1000
+1 free memory block(s) found 
+task1: TID =2
+11111
+task1: tid = 2, **CREATING NEW TASK**
+22222
+task1: tid = 2, **CREATING NEW TASK**
+33333
+task1: tid = 2, **CREATING NEW TASK**
+44444
+task1: tid = 2, **CREATING NEW TASK**
+55555
+task1: tid = 2, **CREATING NEW TASK**
+66666
+task1 before yielding cpu.
+priv_task1 after yielding cpu.
+priv_task1: tid = 1, ret_val=0
+GGGGG
+HHHHH
+IIIII
+JJJJJ
+KKKKK
+LLLLL
+priv_task1 before yielding cpu.
+task1 after yielding cpu.
+task1: tid = 2, ret_val=0
+task1: tid = 2, **CREATING NEW TASK**
+77777
+task1: tid = 2, **CREATING NEW TASK**
+88888
+task1: tid = 2, **CREATING NEW TASK**
+priv_task1 after yielding cpu.
+priv_task1: tid = 1, ret_val=0
+LS task: entering 
+LS task: printing active task IDs...
+0
+2
+3
+4
+5
+6
+7
+8
+9
+0
+G30-TS4 Test passed - all tests that could exit have exited
+

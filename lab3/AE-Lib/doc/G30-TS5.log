@@ -1,0 +1,73 @@
+priv_task1: TID =1
+AAAAA
+BBBBB
+CCCCC
+DDDDD
+EEEEE
+FFFFF
+priv_task1 before yielding cpu.
+task2: entering 
+task2: TID =2
+priv_task1 after yielding cpu.
+priv_task1: tid = 1, ret_val=0
+GGGGG
+HHHHH
+IIIII
+JJJJJ
+KKKKK
+LLLLL
+priv_task1 before yielding cpu.
+task2: entering 
+task2: TID =4
+priv_task1 after yielding cpu.
+priv_task1: tid = 1, ret_val=0
+MMMMM
+NNNNN
+OOOOO
+PPPPP
+QQQQQ
+RRRRR
+priv_task1 before yielding cpu.
+task2: entering 
+task2: TID =2
+priv_task1 after yielding cpu.
+priv_task1: tid = 1, ret_val=0
+SSSSS
+TTTTT
+UUUUU
+VVVVV
+WWWWW
+XXXXX
+priv_task1 before yielding cpu.
+task2: entering 
+task2: TID =4
+priv_task1 after yielding cpu.
+priv_task1: tid = 1, ret_val=0
+YYYYY
+ZZZZZ
+AAAAA
+BBBBB
+CCCCC
+DDDDD
+priv_task1 before yielding cpu.
+task2: entering 
+task2: TID =2
+priv_task1 after yielding cpu.
+priv_task1: tid = 1, ret_val=0
+task2: entering 
+task2: TID =4
+LS task: entering 
+LS task: printing active task IDs...
+0
+3
+0
+0
+0
+0
+0
+0
+0
+0
+G30-TS5 Test passed - all tests that could exit have exited
+G30-TS5 Overall stats: 18/18
+

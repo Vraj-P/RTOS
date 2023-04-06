@@ -1,0 +1,45 @@
+START
+entering test 4
+task ID: 2
+task priority: 80
+entering test 4
+task ID: 3
+task priority: 80
+entering test 4
+task ID: 4
+task priority: 80
+entering test 4
+task ID: 5
+task priority: 80
+entering test 4
+task ID: 6
+task priority: 80
+entering test 4
+task ID: 7
+task priority: 80
+entering test 4
+task ID: 8
+task priority: 80
+entering test 4
+task ID: 9
+task priority: 80
+task ID: 2
+task priority: 81
+task ID: 3
+task priority: 81
+task ID: 4
+task priority: 81
+task ID: 5
+task priority: 81
+task ID: 6
+task priority: 81
+task ID: 7
+task priority: 81
+task ID: 8
+task priority: 81
+task ID: 9
+task priority: 81
+9/9 tests PASSED
+0/9 tests FAILED
+END
+

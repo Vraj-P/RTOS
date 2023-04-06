@@ -1,0 +1,5 @@
+Name,PlannedHours,RealHours,Contributions
+Vraj Patel,20,30,"msg_send, msg_send_nb and test cases"
+Vinay Chaudhari,20,30,utility functions and test cases
+Hanu Mayilvahanan,20,30,IRQ and Commands
+Karim Al-Atrash,20,30,"scheduler, msg_recv, msg_recv_nb and test cases"

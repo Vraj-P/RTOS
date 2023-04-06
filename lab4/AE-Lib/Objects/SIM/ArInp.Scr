@@ -1,0 +1,10 @@
+--create .\Objects\SIM\ae-lib-sim.lib
+.\doc\G30-TS1.log
+.\doc\G30-TS2.log
+.\doc\G30-TS3.log
+.\objects\sim\ae.o
+.\objects\sim\ae_tasks_util.o
+.\objects\sim\ae_timer.o
+.\objects\sim\ae_util.o
+.\objects\sim\main.o
+.\objects\sim\ae_tasks15_g30.o

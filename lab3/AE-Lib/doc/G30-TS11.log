@@ -1,0 +1,58 @@
+START
+k_tsk_create: entering...
+task = 0x100037d3, task_entry = 0x247d, prio=128, stack_size = 512
+k_tsk_create: entering...
+task = 0x100037d4, task_entry = 0x2575, prio=128, stack_size = 512
+k_tsk_create: entering...
+task = 0x100037d5, task_entry = 0x2629, prio=128, stack_size = 512
+k_tsk_set_prio: entering...
+task_id = 1, prio = 129.
+entering task 1
+entering task 2
+in task 2
+entering task 3
+in task 3
+in task 1
+in task 2
+in task 1
+in task 3
+in task 1
+in task 2
+in task 1
+in task 3
+in task 1
+in task 2
+in task 1
+in task 3
+in task 1
+in task 2
+in task 1
+in task 3
+in task 1
+in task 2
+in task 1
+in task 3
+in task 1
+in task 2
+in task 1
+in task 3
+in task 1
+in task 2
+in task 1
+in task 3
+in task 1
+in task 2
+in task 1
+in task 3
+in task 1
+in task 2
+in task 1
+in task 3
+in task 1
+k_tsk_exiting TID=3...
+in task 1
+k_tsk_exiting TID=4...
+k_tsk_exiting TID=2...
+64/64 tests PASSED
+0/64 tests FAILED
+END

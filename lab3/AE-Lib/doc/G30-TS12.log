@@ -1,0 +1,12 @@
+START
+entering task 1
+entering task 2
+task 2 filled the mailbox
+task 1 is receiving first message
+task 2 sent first blocked message
+task 1 is receiving second message
+task 2 sent second blocked message
+8/8 tests PASSED
+0/8 tests FAILED
+END
+

@@ -1,0 +1,11 @@
+G30-TS2: START
+p[0] = 0x1
+RETURN: -1
+ERRNO: 14
+Errors in test 1: 0
+Errors in test 1: 0
+Errors in test 2: 0
+G30-TS2: 7/7 tests PASSED
+G30-TS2: 0/7 tests FAILED
+G30-TS2: END
+
